@@ -226,3 +226,109 @@ a{
 #github:hover{
     color: #7d0fff;
 }
+
+
+/* Responsive */
+
+/* Large */
+@media (min-width: 1201px) {
+    
+}
+
+/* Desktop */
+@media (max-width: 1200px) {
+    
+}
+
+/* Laptop */
+@media (max-width: 1050px) {
+   
+}
+
+@media (max-width: 932px) {
+    
+}
+
+
+@media (max-width: 900px) {
+    
+}
+
+
+/* Tablets */
+@media (max-width: 780px) {
+    .content-wrapper{
+        padding: 15% 0 0 0;
+        height: fit-content;
+    }
+
+    .content{
+        flex-direction: column;
+        margin-bottom: 15%;
+    }
+    
+    .left-section{
+        padding:  0 0 5% 0;
+    }
+
+    #go-project-page{
+        display: block;
+        text-align: center;
+    }
+
+    .about-intro-swapper{
+        padding: 15% 0 15% 0;
+        height: fit-content;
+        border-top: 1px solid var(--MY-GRAY);
+    }
+
+    .about-intro{
+        flex-direction: column;
+    }
+
+    #me-image {
+        margin-left: -25%;
+        margin-bottom: 10%;
+    }
+}
+
+/* Phone */
+@media (max-width: 490px) {
+    #me-image{
+        width: 200px;
+    }
+
+    #content-image{
+        height: 500px;
+        margin-top: 5%;
+    }
+
+    .left-section{
+        width: 100%;
+        padding: 0 5% 0 5%;
+    }
+
+    .about-intro-content{
+        padding: 0;
+    }
+
+    #about-btn{
+        display: block;
+        text-align: center;
+    }
+
+    footer{
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+
+    .footer-right{
+        margin-top: 10%;
+        width: 100%;
+    }
+    .social-media{
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+}
