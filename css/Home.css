@@ -227,7 +227,25 @@ a{
     color: #7d0fff;
 }
 
+.skills{
+    list-style-type: none;
+    margin-bottom: 5%;
+}
 
+.item{
+    margin: 2% 0 2% 0;
+    border-bottom: 1px solid var(--MY-BLUE);
+    padding: .5rem;
+    width: 25%;
+    transition: .8s;
+}
+.item:hover{
+    width: 100%;
+    text-align: center;
+    background-color: var(--MY-BLUE);
+    color: var(--WHITE);
+    opacity: .8;
+}
 /* Responsive */
 
 /* Large */
@@ -245,8 +263,13 @@ a{
    
 }
 
-@media (max-width: 932px) {
-    
+@media (max-width: 954px) {
+    .about-intro{
+        padding-bottom: 25%;
+    }
+    .skills{
+        margin-bottom: 10%;
+    }
 }
 
 
