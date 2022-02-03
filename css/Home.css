@@ -307,12 +307,15 @@ a{
 
     .about-intro{
         flex-direction: column;
+        padding: 0 !important;
+
     }
 
     #me-image {
         margin-left: -25%;
         margin-bottom: 10%;
     }
+
 }
 
 /* Phone */
@@ -334,7 +337,6 @@ a{
     .about-intro-content{
         padding: 0;
     }
-
     #about-btn{
         display: block;
         text-align: center;
@@ -351,7 +353,7 @@ a{
     }
     .social-media{
         width: 100%;
-        justify-content: space-between;
+        justify-content: space-around;
         
     }
 }
